@@ -1,0 +1,303 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
+body {
+    font-family: "Raleway", "Sans serif";
+    margin: 0;
+}
+
+#full_page
+{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+header.page-header
+{
+    width : 100%;
+    display:flex;
+}
+
+nav.navbar
+{
+    display:flex;
+    justify-content: flex-end;
+    width:90%;
+}
+
+.logo
+{
+    width: 20%;
+
+}
+
+.logo img
+{
+    width: 50%;
+}
+
+.heberg, .acti, .inscription
+{
+    padding-left : 15px;
+    padding-right : 15px;
+    padding-top : 10px;
+    padding-bottom : 10px;
+}
+
+#search
+{
+    display:flex;
+    border : 1px black solid;
+    width : 30%;
+    height : 40px;
+    border-radius: 20px;
+}
+
+.textInput
+{
+    width : 50%;
+    text-align : center;
+}
+
+.textInput input
+{
+    height : 30px;
+    margin-top : 5px;
+    width: 85%;
+    border: none;
+}
+
+.textInput input :focus
+{
+    border : none;
+}
+
+.logoSearch, .inputSearch, .buttonSearch
+{
+
+}
+
+.logoSearch
+{
+    width : 10%;
+    text-align:center;
+}
+
+.logoSearch img
+{
+    width : 40%;
+}
+
+.buttonSearch
+{
+    width : 35%;
+    text-align:center;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color : #0065FC;
+}
+
+
+.buttonSearch input:hover
+{
+    background-color : white;
+}
+
+
+.buttonSearch input
+{
+    width: 75%;
+    height : 100%;
+    border: none;
+    background-color : #0065FC;
+    color : white;
+    font-family: Raleway, serif;
+    font-weight : bold;
+    font-size : 20px;
+}
+
+#filtres
+{
+    display:flex;
+    width : 70%;
+    margin-top : 25px;
+}
+
+.textFiltre
+{
+    border: 2px black solid;
+    width : 10%;
+    padding-left : 5px;
+}
+
+.ecoBox, .famiBox, .romanBox, .aniBox
+{
+    border :1px black solid;
+    margin-left: 5px;
+    display :flex;
+}
+
+#hebergementPopulaire
+{
+    display :flex;
+}
+
+#coteGauche
+{
+    width : 65%;
+    background-color: rgb(242,242,242);
+}
+#coteDroit
+{
+
+    width : 30%;
+    margin-left : 45px;
+    background-color: rgb(242,242,242);
+}
+
+.titrePopulaire
+{
+    display:flex;
+}
+
+.hebergementBox
+{
+    width : 90%;
+    display :flex;
+    flex-wrap : wrap;
+    margin :auto;
+}
+
+.vignetteBox1
+{
+    width : 28%;
+    border : 3px white solid;
+    border-radius: 20px;
+    margin-left : 30px;
+    margin-bottom : 30px;
+    background-color : white;
+
+}
+
+.vignetteBox2
+{
+    width : 75%;
+    border : 2px white solid;
+    margin-left: auto;
+    margin-right : auto;
+    border-radius: 20px;
+    background-color : white;
+    display :flex;
+    margin-bottom : 35px;
+    overflow: hidden;
+}
+
+#activite
+{
+    margin-top : 70px;F
+    width : 100%;
+
+}
+
+#activiteConteneur
+{
+    width : 100%;
+
+    display :flex;
+    justify-content: space-between;
+}
+
+.actiBox1
+{
+    width : 22%;
+    border : 1px black solid;
+    border-radius : 20px;
+    overflow: hidden;
+}
+.actiBox2
+{
+    width : 22%;
+    border : 1px black solid;
+    border-radius : 20px;
+    overflow : hidden;
+}
+.actiBox3
+{
+    width : 22%;
+    border : 1px black solid;
+    border-radius : 20px;
+    overflow : hidden;
+}
+.actiBox4
+{
+    width : 22%;
+    border : 1px black solid;
+    border-radius : 20px;
+    overflow : hidden;
+}
+
+footer
+{
+    margin-top : 70px;
+    display : flex;
+    background-color: rgb(242,242,242);
+    margin-bottom : 30px;
+}
+
+.imagehebergement
+{
+    width : 100%;
+    border: 2px white solid;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+}
+
+.boxPhoto
+{
+    border: 1px white solid;
+    border-radius : 35px;
+    overflow: hidden;
+}
+
+.imagePopulaire
+{
+    width : 80%;
+
+}
+.imagePopulaire1
+{
+    width : 50%;
+
+}
+
+.blue
+{
+    color:blue;
+}
+
+.imageActi1
+{
+    width : 180%;
+}
+
+
+.imageActi2
+{
+    width :80%;
+}
+.actibox2haut
+{
+    height : 100px;
+}
+
+.propos
+{
+    width : 35%;
+    margin-left : 40px;
+margin-bottom : 20px;
+}
+.nosHebergements
+{
+    width : 30%;
+}
+.assistance
+{
+    width : 30%;
+}
