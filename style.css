@@ -230,13 +230,11 @@ form.recherche button[type="submit"] {
         border-radius: 15px 15px 15px 15px !important;
         margin-left: -15px !important;
     }
-}
-
-@media (max-width:640px) {
-    p.textbtn {
+       p.textbtn {
         display: none;
     }
 }
+
 
 @media (min-width:640px) {
     p.textbtn2 {
@@ -395,6 +393,10 @@ figure:hover {
         flex: 1;
         margin-right: 0%;
     }
+     #hebergement .LesPlusPopulaires {
+        order: 0;
+        flex: 0 1 100%;
+    }
 }
 
 #hebergement .LesPlusPopulaires {
@@ -402,12 +404,6 @@ figure:hover {
     flex: 0 1 35%;
 }
 
-@media (max-width:640px) {
-    #hebergement .LesPlusPopulaires {
-        order: 0;
-        flex: 0 1 100%;
-    }
-}
 
 #hebergement .fondgris {
     background: #F2F2F2;
