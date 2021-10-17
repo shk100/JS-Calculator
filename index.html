@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css" type="text/css" />
+
+    <title>JS  Learn</title>
+
+</head>
+<body>
+
+  
+    <div id="titleCalculator"> Calculette JS</div>
+
+    <div id="calculatorContainer">
+        
+        <div id="ecran">
+            <p id="affichage">0</p>
+        </div>
+
+        <div id="toucheOption">
+            <button type="button" class="buttonOp" id="reset">RESET</button>
+        </div>
+
+        <div id="clavier">
+            <div id="chiffre">
+                <div id="line">
+                    <div id="nombre">
+                        <button type="button" class="buttonNum" id="button7">7</button>
+                    </div>
+                    <div id="nombre">
+                        <button type="button" class="buttonNum" id="button8">8</button>
+                    </div>
+                    <div id="nombre">
+                        <button type="button" class="buttonNum" id="button9">9</button>
+                    </div>
+                </div>
+
+                <div id="line">
+                    <div id="nombre">
+                        <button type="button" class="buttonNum" id="button4">4</button>
+                    </div>
+                    <div id="nombre">
+                        <button type="button" class="buttonNum" id="button5">5</button>
+                    </div>
+                    <div id="nombre">
+                        <button type="button" class="buttonNum" id="button6">6</button>
+                    </div>
+                </div>
+                <div id="line">
+                    <div id="nombre">
+                        <button type="button" class="buttonNum" id="button1">1</button>
+                    </div>
+                    <div id="nombre">
+                        <button type="button" class="buttonNum" id="button2">2</button>
+                    </div>
+                    <div id="nombre">
+                        <button type="button" class="buttonNum" id="button3">3</button>
+                    </div>
+                </div>
+                <div id="line">
+                    <div id="nombre">
+                        <button type="button" class="buttonNum" id="button0">0</button>
+                    </div>
+                    <div id="nombre">
+                        <button type="button" class="buttonNum" id="buttonPoint">.</button>
+                    </div>
+                    <div id="nombre">
+                        <button type="button" class="buttonNum" id="buttonEgal">=</button>
+                    </div>
+                </div>
+
+            </div>
+            <div id="operateurRow">
+                <div id="operateur">
+                    <button type="button" class="buttonOp" id="buttonDivision">/</button>
+                </div>
+                <div id="operateur">
+                    <button type="button" class="buttonOp" id="buttonMultiplication">X</button>
+                </div>
+                <div id="operateur">
+                    <button type="button" class="buttonOp" id="buttonSoustraction">-</button>
+                </div>
+                <div id="operateur">
+                    <button type="button" class="buttonOp" id="buttonAddition">+</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="containerValue">
+            <div id="boxValue">
+                <div><p>TmpValue : </p></div>
+                <p id="operation">0</p>
+            </div>
+
+            <div id="boxValue">
+                <div><p>Value 1: </p></div>
+                <p id="afficheValue1">0</p>
+            </div>
+
+            <div id="boxValue">
+                <div><p>Value 2 : </p></div>
+                <p id="afficheValue2">0</p>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+</div>
+</body>
+
+<script src="index.js"></script>
+<script src="addition.js"></script>
+<script src="soustraction.js"></script>
+<script src="egal.js"></script>
+<script src="multiplication.js"></script>
+<script src="division.js"></script>
+
+</html>
